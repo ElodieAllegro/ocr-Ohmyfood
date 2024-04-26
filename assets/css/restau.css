@@ -306,6 +306,7 @@ main #background .cards-restau .card-restau h3 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  transition: all 0.5s linear;
 }
 main #background .cards-restau .card-restau .card-content {
   padding: 13.5px 15px;

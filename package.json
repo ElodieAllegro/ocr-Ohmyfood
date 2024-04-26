@@ -5,20 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "sass sass/index.scss:css/index.css  sass/restau.scss:css/restau.css --watch",
-    "build": "sass sass/index.scss:css/index.css  sass/restau.scss:css/restau.css  --style=compressed"
+    "dev": "sass sass/index.scss:assets/css/index.css  sass/restau.scss:assets/css/restau.css --watch",
+    "build": "sass sass/index.scss:assets/css/index.css  sass/restau.scss:assets/css/restau.css  --style=compressed"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michelre/ocr-Ohmyfood.git"
+    "url": "git+https://github.com/ElodieAllegro/ocr-Ohmyfood.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/michelre/ocr-Ohmyfood/issues"
-  },
-  "homepage": "https://github.com/michelre/ocr-Ohmyfood#readme",
+  "homepage": "https://github.com/ElodieAllegro/ocr-Ohmyfood.git#readme",
   "devDependencies": {
     "sass": "^1.72.0"
   }
